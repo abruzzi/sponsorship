@@ -11,7 +11,7 @@ const getJigsawId = (url) => {
 
 const sponsors = () => {
 
-	const csvFilePath='./sponsors-xa.csv'
+	const csvFilePath='./raw/sponsors-xa.csv'
 
 	csv()
 	.fromFile(csvFilePath)
@@ -24,7 +24,7 @@ const sponsors = () => {
 }
 
 const sponsees = () => {
-	const csvFilePath='./sponsees-xa.csv'
+	const csvFilePath='./raw/sponsees-xa.csv'
 
 	csv()
 	.fromFile(csvFilePath)
@@ -40,5 +40,3 @@ const sponsees = () => {
 		console.log(JSON.stringify(info, null, 2))
 	})	
 }
-
-sponsors()
