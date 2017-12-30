@@ -2,7 +2,7 @@ const _ = require('lodash')
 const csv=require('csvtojson')
 
 const unify = (str) => {
-	return str.replace(/\s+/g,'').toLowerCase()
+	return str.replace(/\s+/g,'').toLowerCase().trim();
 }
 
 const getJigsawId = (url) => {
@@ -32,11 +32,18 @@ const sponsees = () => {
 		const info = _.map(array, (item) => {
 			return {
 				'name': unify(item['Common Name']), 
-				'id': item['field1'],
+				'id': item['Jigsaw ID'],
 				'sponsorName': unify(item['Sponsor Common Name']),
 				'sponsorId': item['Sponsor ID']
 			}
 		})
-		console.log(JSON.stringify(info, null, 2))
+
+		const result = _.each(_.filter(info, (sponsee) => {
+			return !_.isEmpty(sponsee.name)
+		}))
+
+		console.log(JSON.stringify(result, null, 2))
 	})	
 }
+
+sponsees()
