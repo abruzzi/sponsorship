@@ -31,9 +31,16 @@ const sponseeCount = _.reduce(_.map(valid, (sponsee) => {
 	return result
 }, {});
 
+// console.log(_.uniqBy(_.flatten(_.concat(_.map(valid, (spnosee) => {return {id: spnosee.name, value: sponseeCount[spnosee.name] || 0}}), 
+// 	_.map(valid, (sponsor) => {return {id: sponsor.sponsorName, value: sponseeCount[sponsor.sponsorName] || 0}}))), 'id'))
+
 const graph = {
-	nodes: _.uniq(_.flatten(_.concat(_.map(valid, (spnosee) => {return {id: spnosee.name, value: sponseeCount[spnosee.name] || 0}}), 
-	_.map(valid, (sponsor) => {return {id: sponsor.sponsorName}})))),
+	nodes: _.uniqBy(_.flatten(_.concat(_.map(valid, (spnosee) => {
+		return {id: spnosee.name, value: sponseeCount[spnosee.name] || 0}
+	}), 
+	_.map(valid, (sponsor) => {
+		return {id: sponsor.sponsorName, value: sponseeCount[sponsor.sponsorName] || 0}
+	}))), 'id'),
 	links: _.map(valid, (sponsee) => {
 		return {source: sponsee.name, target: sponsee.sponsorName, value: 1}
 	})

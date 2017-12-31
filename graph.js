@@ -12,6 +12,14 @@ var filter = defs.append('filter').attr('id', 'glow'),
   feMerge.append('feMergeNode').attr('in','SourceGraphic');
 
 
+var colors = ["#FBE426","#FCFB8F","#F3F5E7","#C7E4EA","#ABD6E6","#9AD2E1"].reverse();
+var sponseesNumber = [0,1,2,3,4,5,6,7,8,9,10,11,12];
+var colorScale = d3.scaleLinear()
+    .domain(sponseesNumber)
+    .range(colors);
+
+console.log(colorScale(0))
+
 var redraw = function(graph) {
 // Extract the width and height that was computed by CSS.
   var width = chartDiv.clientWidth;
@@ -65,16 +73,16 @@ var redraw = function(graph) {
       .attr('id', function(d, i){ return "gradCenter-"+i; })
     gradientCenter.append("stop")
       .attr("offset", "0%")
-      .attr("stop-color", function(d) { return d3.rgb(color).brighter(1.75); });
+      .attr("stop-color", function(d) { return d3.rgb(colorScale(d.value)).brighter(1.75); });
     gradientCenter.append("stop")
       .attr("offset", "60%")
-      .attr("stop-color", function(d) { return d3.rgb(color).brighter(0.7); });
+      .attr("stop-color", function(d) { return d3.rgb(colorScale(d.value)).brighter(0.7); });
     gradientCenter.append("stop")
       .attr("offset", "90%")
-      .attr("stop-color", function(d) { return color; }); 
+      .attr("stop-color", function(d) { return colorScale(d.value); }); 
     gradientCenter.append("stop")
       .attr("offset",  "110%")
-      .attr("stop-color", function(d) { return d3.rgb(color).darker(0.5); });
+      .attr("stop-color", function(d) { return d3.rgb(colorScale(d.value)).darker(0.5); });
 
 
 
