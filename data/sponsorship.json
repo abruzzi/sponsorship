@@ -1,550 +1,732 @@
 {
   "nodes": [
     {
-      "id": "xia,siyu"
+      "id": "xia,siyu",
+      "value": 0
     },
     {
-      "id": "feng,yuehua"
+      "id": "feng,yuehua",
+      "value": 3
     },
     {
-      "id": "yang,zhen"
+      "id": "yang,zhen",
+      "value": 9
     },
     {
-      "id": "li,dong"
+      "id": "li,dong",
+      "value": 2
     },
     {
-      "id": "zhang,jiukun"
+      "id": "zhang,jiukun",
+      "value": 3
     },
     {
-      "id": "yu,chanchan"
+      "id": "yu,chanchan",
+      "value": 0
     },
     {
-      "id": "lin,wenjun"
+      "id": "lin,wenjun",
+      "value": 0
     },
     {
-      "id": "huang,lei"
+      "id": "huang,lei",
+      "value": 0
     },
     {
-      "id": "lei,yin"
+      "id": "lei,yin",
+      "value": 0
     },
     {
-      "id": "tang,lijuan"
+      "id": "tang,lijuan",
+      "value": 0
     },
     {
-      "id": "sun,yanan"
+      "id": "sun,yanan",
+      "value": 0
     },
     {
-      "id": "liu,ying"
+      "id": "liu,ying",
+      "value": 0
     },
     {
-      "id": "bao,qiang"
+      "id": "bao,qiang",
+      "value": 0
     },
     {
-      "id": "xing,yanmin"
+      "id": "xing,yanmin",
+      "value": 0
     },
     {
-      "id": "fan,wenbo"
+      "id": "fan,wenbo",
+      "value": 6
     },
     {
-      "id": "li,min"
+      "id": "li,min",
+      "value": 0
     },
     {
-      "id": "zeng,heng"
+      "id": "zeng,heng",
+      "value": 0
     },
     {
-      "id": "gaoclaireyuan"
+      "id": "gaoclaireyuan",
+      "value": 0
     },
     {
-      "id": "wang,lvju"
+      "id": "wang,lvju",
+      "value": 0
     },
     {
-      "id": "tian,mali"
+      "id": "tian,mali",
+      "value": 0
     },
     {
-      "id": "xu,xiaojuan"
+      "id": "xu,xiaojuan",
+      "value": 0
     },
     {
-      "id": "wang,yue"
+      "id": "wang,yue",
+      "value": 0
     },
     {
-      "id": "wang,xin"
+      "id": "wang,xin",
+      "value": 0
     },
     {
-      "id": "li,ju"
+      "id": "li,ju",
+      "value": 0
     },
     {
-      "id": "wu,lingzi"
+      "id": "wu,lingzi",
+      "value": 0
     },
     {
-      "id": "sun,juanchen"
+      "id": "sun,juanchen",
+      "value": 0
     },
     {
-      "id": "wang,ni"
+      "id": "wang,ni",
+      "value": 2
     },
     {
-      "id": "shi,xiangyang"
+      "id": "shi,xiangyang",
+      "value": 0
     },
     {
-      "id": "zheng,jianing"
+      "id": "zheng,jianing",
+      "value": 3
     },
     {
-      "id": "shen,tong"
+      "id": "shen,tong",
+      "value": 0
     },
     {
-      "id": "li,yuevan"
+      "id": "li,yuevan",
+      "value": 0
     },
     {
-      "id": "zhou,yixing"
+      "id": "zhou,yixing",
+      "value": 0
     },
     {
-      "id": "han,yi"
+      "id": "han,yi",
+      "value": 0
     },
     {
-      "id": "he,liang"
+      "id": "he,liang",
+      "value": 3
     },
     {
-      "id": "song,cuicui"
+      "id": "song,cuicui",
+      "value": 0
     },
     {
-      "id": "he,yaowen"
+      "id": "he,yaowen",
+      "value": 7
     },
     {
-      "id": "an,kaihang"
+      "id": "an,kaihang",
+      "value": 0
     },
     {
-      "id": "shi,xiaofeng"
+      "id": "shi,xiaofeng",
+      "value": 0
     },
     {
-      "id": "dong,xiaonan"
+      "id": "dong,xiaonan",
+      "value": 0
     },
     {
-      "id": "feng,bo"
+      "id": "feng,bo",
+      "value": 0
     },
     {
-      "id": "liu,yuan"
+      "id": "liu,yuan",
+      "value": 0
     },
     {
-      "id": "liu,xinqian"
+      "id": "liu,xinqian",
+      "value": 0
     },
     {
-      "id": "yao,danping"
+      "id": "yao,danping",
+      "value": 0
     },
     {
-      "id": "tian,xiaofei"
+      "id": "tian,xiaofei",
+      "value": 0
     },
     {
-      "id": "li,pengbo"
+      "id": "li,pengbo",
+      "value": 0
     },
     {
-      "id": "meng,dandan"
+      "id": "meng,dandan",
+      "value": 0
     },
     {
-      "id": "qi,lei"
+      "id": "qi,lei",
+      "value": 0
     },
     {
-      "id": "hong,yuanlei"
+      "id": "hong,yuanlei",
+      "value": 0
     },
     {
-      "id": "wang,lina"
+      "id": "wang,lina",
+      "value": 0
     },
     {
-      "id": "wang,yun"
+      "id": "wang,yun",
+      "value": 0
     },
     {
-      "id": "luo,jie"
+      "id": "luo,jie",
+      "value": 0
     },
     {
-      "id": "pan,hao"
+      "id": "pan,hao",
+      "value": 0
     },
     {
-      "id": "dong,lei"
+      "id": "dong,lei",
+      "value": 0
     },
     {
-      "id": "chen,xiyu"
+      "id": "chen,xiyu",
+      "value": 0
     },
     {
-      "id": "fan,wei"
+      "id": "fan,wei",
+      "value": 0
     },
     {
-      "id": "zhang,haidong"
+      "id": "zhang,haidong",
+      "value": 0
     },
     {
-      "id": "wu,gongduo"
+      "id": "wu,gongduo",
+      "value": 0
     },
     {
-      "id": "wang,cong"
+      "id": "wang,cong",
+      "value": 0
     },
     {
-      "id": "zhang,zhihui"
+      "id": "zhang,zhihui",
+      "value": 0
     },
     {
-      "id": "zhang,yang"
+      "id": "zhang,yang",
+      "value": 0
     },
     {
-      "id": "​lian,rundong"
+      "id": "​lian,rundong",
+      "value": 0
     },
     {
-      "id": "luo,lei"
+      "id": "luo,lei",
+      "value": 0
     },
     {
-      "id": "qiang,weibo"
+      "id": "qiang,weibo",
+      "value": 0
     },
     {
-      "id": "niu,yameng"
+      "id": "niu,yameng",
+      "value": 4
     },
     {
-      "id": "shi,jie"
+      "id": "shi,jie",
+      "value": 3
     },
     {
-      "id": "lei,hui"
+      "id": "lei,hui",
+      "value": 0
     },
     {
-      "id": "chen,zhe"
+      "id": "chen,zhe",
+      "value": 0
     },
     {
-      "id": "zhou,chuwen"
+      "id": "zhou,chuwen",
+      "value": 0
     },
     {
-      "id": "meng,ru"
+      "id": "meng,ru",
+      "value": 0
     },
     {
-      "id": "hou,ying"
+      "id": "hou,ying",
+      "value": 0
     },
     {
-      "id": "zhan,fang"
+      "id": "zhan,fang",
+      "value": 0
     },
     {
-      "id": "li,yan"
+      "id": "li,yan",
+      "value": 0
     },
     {
-      "id": "ma,nan"
+      "id": "ma,nan",
+      "value": 0
     },
     {
-      "id": "guo,yuting"
+      "id": "guo,yuting",
+      "value": 0
     },
     {
-      "id": "zhai,wei"
+      "id": "zhai,wei",
+      "value": 1
     },
     {
-      "id": "cao,xiaoqi"
+      "id": "cao,xiaoqi",
+      "value": 0
     },
     {
-      "id": "zhao,wenbo"
+      "id": "zhao,wenbo",
+      "value": 0
     },
     {
-      "id": "zhang,yapeng"
+      "id": "zhang,yapeng",
+      "value": 0
     },
     {
-      "id": "xiong,bin"
+      "id": "xiong,bin",
+      "value": 0
     },
     {
-      "id": "jiang,xiu"
+      "id": "jiang,xiu",
+      "value": 0
     },
     {
-      "id": "yang,nanchen"
+      "id": "yang,nanchen",
+      "value": 0
     },
     {
-      "id": "lou,jia"
+      "id": "lou,jia",
+      "value": 0
     },
     {
-      "id": "li,tongxin"
+      "id": "li,tongxin",
+      "value": 0
     },
     {
-      "id": "yan,yu"
+      "id": "yan,yu",
+      "value": 0
     },
     {
-      "id": "jia,wei"
+      "id": "jia,wei",
+      "value": 0
     },
     {
-      "id": "ma,ruilu"
+      "id": "ma,ruilu",
+      "value": 0
     },
     {
-      "id": "yan,jiayang"
+      "id": "yan,jiayang",
+      "value": 0
     },
     {
-      "id": "zhang,xiaochun"
+      "id": "zhang,xiaochun",
+      "value": 0
     },
     {
-      "id": "sun,yaxi"
+      "id": "sun,yaxi",
+      "value": 0
     },
     {
-      "id": "si,xiaojing"
+      "id": "si,xiaojing",
+      "value": 0
     },
     {
-      "id": "wang,wei"
+      "id": "wang,wei",
+      "value": 5
     },
     {
-      "id": "zhu,ye"
+      "id": "zhu,ye",
+      "value": 0
     },
     {
-      "id": "li,yanzi"
+      "id": "li,yanzi",
+      "value": 0
     },
     {
-      "id": "feng,xiaowu"
+      "id": "feng,xiaowu",
+      "value": 0
     },
     {
-      "id": "chen,yu"
+      "id": "chen,yu",
+      "value": 0
     },
     {
-      "id": "sun,jing"
+      "id": "sun,jing",
+      "value": 0
     },
     {
-      "id": "niu,wanlu"
+      "id": "niu,wanlu",
+      "value": 0
     },
     {
-      "id": "bai,xue"
+      "id": "bai,xue",
+      "value": 0
     },
     {
-      "id": "zhang,xiangmelon"
+      "id": "zhang,xiangmelon",
+      "value": 0
     },
     {
-      "id": "wang,hao"
+      "id": "wang,hao",
+      "value": 0
     },
     {
-      "id": "wang,jing"
+      "id": "wang,jing",
+      "value": 0
     },
     {
-      "id": "li,junli"
+      "id": "li,junli",
+      "value": 0
     },
     {
-      "id": "ouyang,yingjie"
+      "id": "ouyang,yingjie",
+      "value": 0
     },
     {
-      "id": "zhou,jingivy"
+      "id": "zhou,jingivy",
+      "value": 0
     },
     {
-      "id": "wang,xutong"
+      "id": "wang,xutong",
+      "value": 0
     },
     {
-      "id": "tong,xin"
+      "id": "tong,xin",
+      "value": 0
     },
     {
-      "id": "qu,chen"
+      "id": "qu,chen",
+      "value": 5
     },
     {
-      "id": "wang,linkatherine"
+      "id": "wang,linkatherine",
+      "value": 0
     },
     {
-      "id": "wang,zhiyong"
+      "id": "wang,zhiyong",
+      "value": 4
     },
     {
-      "id": "yang,mengmeng"
+      "id": "yang,mengmeng",
+      "value": 0
     },
     {
-      "id": "huang,xiaoqing"
+      "id": "huang,xiaoqing",
+      "value": 0
     },
     {
-      "id": "zhao,mengru"
+      "id": "zhao,mengru",
+      "value": 0
     },
     {
-      "id": "jing,han"
+      "id": "jing,han",
+      "value": 0
     },
     {
-      "id": "jingchen"
+      "id": "jingchen",
+      "value": 0
     },
     {
-      "id": "liu,lu"
+      "id": "liu,lu",
+      "value": 0
     },
     {
-      "id": "zhi,pu"
+      "id": "zhi,pu",
+      "value": 0
     },
     {
-      "id": "zhang,qingbo"
+      "id": "zhang,qingbo",
+      "value": 4
     },
     {
-      "id": "shi,yuanjie"
+      "id": "shi,yuanjie",
+      "value": 0
     },
     {
-      "id": "yu,chao"
+      "id": "yu,chao",
+      "value": 0
     },
     {
-      "id": "chen,chen"
+      "id": "chen,chen",
+      "value": 0
     },
     {
-      "id": "xu,haoxi'andev"
+      "id": "xu,haoxi'andev",
+      "value": 0
     },
     {
-      "id": "chen,yang"
+      "id": "chen,yang",
+      "value": 0
     },
     {
-      "id": "meng,jie"
+      "id": "meng,jie",
+      "value": 0
     },
     {
-      "id": "liu,liang"
+      "id": "liu,liang",
+      "value": 0
     },
     {
-      "id": "cui,bin"
+      "id": "cui,bin",
+      "value": 0
     },
     {
-      "id": "wu,haoeaword"
+      "id": "wu,haoeaword",
+      "value": 0
     },
     {
-      "id": "he,bin"
+      "id": "he,bin",
+      "value": 0
     },
     {
-      "id": "wang,nan"
+      "id": "wang,nan",
+      "value": 0
     },
     {
-      "id": "hou,xiaocheng"
+      "id": "hou,xiaocheng",
+      "value": 0
     },
     {
-      "id": "xue,qian"
+      "id": "xue,qian",
+      "value": 0
     },
     {
-      "id": "wang,xinyi"
+      "id": "wang,xinyi",
+      "value": 0
     },
     {
-      "id": "liu,zhenwei"
+      "id": "liu,zhenwei",
+      "value": 0
     },
     {
-      "id": "zhang,jia"
+      "id": "zhang,jia",
+      "value": 0
     },
     {
-      "id": "sun,kaichao"
+      "id": "sun,kaichao",
+      "value": 0
     },
     {
-      "id": "mao,jingjing"
+      "id": "mao,jingjing",
+      "value": 0
     },
     {
-      "id": "zhang,yuchen"
+      "id": "zhang,yuchen",
+      "value": 0
     },
     {
-      "id": "ji,xiaohui"
+      "id": "ji,xiaohui",
+      "value": 0
     },
     {
-      "id": "zhang,bo"
+      "id": "zhang,bo",
+      "value": 0
     },
     {
-      "id": "li,weinan"
+      "id": "li,weinan",
+      "value": 0
     },
     {
-      "id": "yu,nan"
+      "id": "yu,nan",
+      "value": 0
     },
     {
-      "id": "fang,lin"
+      "id": "fang,lin",
+      "value": 0
     },
     {
-      "id": "zhang,dongdong"
+      "id": "zhang,dongdong",
+      "value": 0
     },
     {
-      "id": "li,yaodong"
+      "id": "li,yaodong",
+      "value": 0
     },
     {
-      "id": "zhang,shuai"
+      "id": "zhang,shuai",
+      "value": 0
     },
     {
-      "id": "wang,zhenxuan"
+      "id": "wang,zhenxuan",
+      "value": 0
     },
     {
-      "id": "wang,weibo"
+      "id": "wang,weibo",
+      "value": 0
     },
     {
-      "id": "shen,jian"
+      "id": "shen,jian",
+      "value": 0
     },
     {
-      "id": "sun,jin"
+      "id": "sun,jin",
+      "value": 0
     },
     {
-      "id": "wang,zhengkun"
+      "id": "wang,zhengkun",
+      "value": 0
     },
     {
-      "id": "kanin,lekapojpanich"
+      "id": "kanin,lekapojpanich",
+      "value": 0
     },
     {
-      "id": "liu,dan"
+      "id": "liu,dan",
+      "value": 0
     },
     {
-      "id": "zhang,jukai"
+      "id": "zhang,jukai",
+      "value": 0
     },
     {
-      "id": "sun,ruigang"
+      "id": "sun,ruigang",
+      "value": 0
     },
     {
-      "id": "li,zongwen"
+      "id": "li,zongwen",
+      "value": 0
     },
     {
-      "id": "du,weilong"
+      "id": "du,weilong",
+      "value": 0
     },
     {
-      "id": "zhou,qing"
+      "id": "zhou,qing",
+      "value": 0
     },
     {
-      "id": "zhao,zhaozhao"
+      "id": "zhao,zhaozhao",
+      "value": 0
     },
     {
-      "id": "liu,bo"
+      "id": "liu,bo",
+      "value": 0
     },
     {
-      "id": "gu,yu"
+      "id": "gu,yu",
+      "value": 3
     },
     {
-      "id": "zhang,jian"
+      "id": "zhang,jian",
+      "value": 0
     },
     {
-      "id": "xu,zhezi"
+      "id": "xu,zhezi",
+      "value": 0
     },
     {
-      "id": "li,ang"
+      "id": "li,ang",
+      "value": 0
     },
     {
-      "id": "gao,fangwei"
+      "id": "gao,fangwei",
+      "value": 0
     },
     {
-      "id": "yang,hao"
+      "id": "yang,hao",
+      "value": 0
     },
     {
-      "id": "xi,qiang"
+      "id": "xi,qiang",
+      "value": 0
     },
     {
-      "id": "zhu,rong"
+      "id": "zhu,rong",
+      "value": 0
     },
     {
-      "id": "cao，yupeng"
+      "id": "cao，yupeng",
+      "value": 0
     },
     {
-      "id": "wang,yufei"
+      "id": "wang,yufei",
+      "value": 0
     },
     {
-      "id": "zhang,yanan"
+      "id": "zhang,yanan",
+      "value": 0
     },
     {
-      "id": "shi,kun"
+      "id": "shi,kun",
+      "value": 0
     },
     {
-      "id": "guo,ying"
+      "id": "guo,ying",
+      "value": 0
     },
     {
-      "id": "cao,yingyong"
+      "id": "cao,yingyong",
+      "value": 0
     },
     {
-      "id": "bai,yuchristine"
+      "id": "bai,yuchristine",
+      "value": 0
     },
     {
-      "id": "chen,guang"
+      "id": "chen,guang",
+      "value": 0
     },
     {
-      "id": "rui,qinghua"
+      "id": "rui,qinghua",
+      "value": 0
     },
     {
-      "id": "yang,xu"
+      "id": "yang,xu",
+      "value": 0
     },
     {
-      "id": "an,yi"
+      "id": "an,yi",
+      "value": 0
     },
     {
-      "id": "zhao,guoxu"
+      "id": "zhao,guoxu",
+      "value": 0
     },
     {
-      "id": "ning,jing"
+      "id": "ning,jing",
+      "value": 0
     },
     {
-      "id": "chen,chengtommy"
+      "id": "chen,chengtommy",
+      "value": 0
     },
     {
-      "id": "wang,peng"
+      "id": "wang,peng",
+      "value": 0
     },
     {
-      "id": "bai,peng"
+      "id": "bai,peng",
+      "value": 0
     },
     {
       "id": "zhang,lin"
@@ -1097,67 +1279,67 @@
     {
       "source": "xia,siyu",
       "target": "zhang,lin",
-      "value": 3
+      "value": 1
     },
     {
       "source": "feng,yuehua",
       "target": "jiao,hongyun",
-      "value": 5
+      "value": 1
     },
     {
       "source": "yang,zhen",
       "target": "liu,yao",
-      "value": 2
+      "value": 1
     },
     {
       "source": "li,dong",
       "target": "liu,yao",
-      "value": 4
+      "value": 1
     },
     {
       "source": "zhang,jiukun",
       "target": "liu,yao",
-      "value": 4
+      "value": 1
     },
     {
       "source": "yu,chanchan",
       "target": "liu,yao",
-      "value": 4
+      "value": 1
     },
     {
       "source": "lin,wenjun",
       "target": "liu,yao",
-      "value": 9
+      "value": 1
     },
     {
       "source": "huang,lei",
       "target": "liu,yao",
-      "value": 8
+      "value": 1
     },
     {
       "source": "lei,yin",
       "target": "liu,yao",
-      "value": 2
+      "value": 1
     },
     {
       "source": "tang,lijuan",
       "target": "xiao,ran",
-      "value": 6
+      "value": 1
     },
     {
       "source": "sun,yanan",
       "target": "zhang,xiaochong",
-      "value": 8
+      "value": 1
     },
     {
       "source": "liu,ying",
       "target": "wang,xiaoshen",
-      "value": 8
+      "value": 1
     },
     {
       "source": "bao,qiang",
       "target": "zhu,chunmei",
-      "value": 2
+      "value": 1
     },
     {
       "source": "xing,yanmin",
@@ -1167,82 +1349,82 @@
     {
       "source": "fan,wenbo",
       "target": "zhang,qun",
-      "value": 4
+      "value": 1
     },
     {
       "source": "li,min",
       "target": "shi,jie",
-      "value": 4
+      "value": 1
     },
     {
       "source": "zeng,heng",
       "target": "zhang,qun",
-      "value": 7
+      "value": 1
     },
     {
       "source": "gaoclaireyuan",
       "target": "zhang,qun",
-      "value": 8
+      "value": 1
     },
     {
       "source": "wang,lvju",
       "target": "zhang,qun",
-      "value": 9
+      "value": 1
     },
     {
       "source": "tian,mali",
       "target": "yang,xuemin",
-      "value": 2
+      "value": 1
     },
     {
       "source": "xu,xiaojuan",
       "target": "wang,wei",
-      "value": 5
+      "value": 1
     },
     {
       "source": "wang,yue",
       "target": "yang,xuemin",
-      "value": 4
+      "value": 1
     },
     {
       "source": "wang,xin",
       "target": "du,jie",
-      "value": 3
+      "value": 1
     },
     {
       "source": "li,ju",
       "target": "zheng,jianing",
-      "value": 8
+      "value": 1
     },
     {
       "source": "wu,lingzi",
       "target": "zhuo,xianjing",
-      "value": 5
+      "value": 1
     },
     {
       "source": "sun,juanchen",
       "target": "shi,yuntao",
-      "value": 2
+      "value": 1
     },
     {
       "source": "wang,ni",
       "target": "zhang,kaifeng",
-      "value": 3
+      "value": 1
     },
     {
       "source": "shi,xiangyang",
       "target": "zhang,kaifeng",
-      "value": 4
+      "value": 1
     },
     {
       "source": "zheng,jianing",
       "target": "xie,jia",
-      "value": 8
+      "value": 1
     },
     {
       "source": "shen,tong",
       "target": "xie,jia",
-      "value": 8
+      "value": 1
     },
     {
       "source": "li,yuevan",
@@ -1252,27 +1434,27 @@
     {
       "source": "zhou,yixing",
       "target": "xie,jia",
-      "value": 6
+      "value": 1
     },
     {
       "source": "han,yi",
       "target": "mao,chao",
-      "value": 6
+      "value": 1
     },
     {
       "source": "he,liang",
       "target": "mao,chao",
-      "value": 8
+      "value": 1
     },
     {
       "source": "song,cuicui",
       "target": "mao,chao",
-      "value": 4
+      "value": 1
     },
     {
       "source": "he,yaowen",
       "target": "mao,chao",
-      "value": 5
+      "value": 1
     },
     {
       "source": "an,kaihang",
@@ -1282,7 +1464,7 @@
     {
       "source": "shi,xiaofeng",
       "target": "wang,xiaofeng",
-      "value": 5
+      "value": 1
     },
     {
       "source": "dong,xiaonan",
@@ -1292,27 +1474,27 @@
     {
       "source": "feng,bo",
       "target": "wang,xiaofeng",
-      "value": 9
+      "value": 1
     },
     {
       "source": "liu,yuan",
       "target": "wang,xiaofeng",
-      "value": 6
+      "value": 1
     },
     {
       "source": "liu,xinqian",
       "target": "wang,xiaofeng",
-      "value": 3
+      "value": 1
     },
     {
       "source": "yao,danping",
       "target": "wang,xiaofeng",
-      "value": 9
+      "value": 1
     },
     {
       "source": "tian,xiaofei",
       "target": "wang,xiaofeng",
-      "value": 5
+      "value": 1
     },
     {
       "source": "li,pengbo",
@@ -1322,7 +1504,7 @@
     {
       "source": "meng,dandan",
       "target": "fu,ying",
-      "value": 5
+      "value": 1
     },
     {
       "source": "qi,lei",
@@ -1332,137 +1514,137 @@
     {
       "source": "hong,yuanlei",
       "target": "yang,zhen",
-      "value": 4
+      "value": 1
     },
     {
       "source": "wang,lina",
       "target": "yang,zhen",
-      "value": 2
+      "value": 1
     },
     {
       "source": "wang,yun",
       "target": "yang,zhen",
-      "value": 8
+      "value": 1
     },
     {
       "source": "luo,jie",
       "target": "yang,zhen",
-      "value": 8
+      "value": 1
     },
     {
       "source": "pan,hao",
       "target": "yang,zhen",
-      "value": 9
+      "value": 1
     },
     {
       "source": "dong,lei",
       "target": "yang,zhen",
-      "value": 7
+      "value": 1
     },
     {
       "source": "chen,xiyu",
       "target": "yang,zhen",
-      "value": 9
+      "value": 1
     },
     {
       "source": "fan,wei",
       "target": "yang,zhen",
-      "value": 9
+      "value": 1
     },
     {
       "source": "zhang,haidong",
       "target": "chang,yanwei",
-      "value": 2
+      "value": 1
     },
     {
       "source": "wu,gongduo",
       "target": "chang,yanwei",
-      "value": 6
+      "value": 1
     },
     {
       "source": "wang,cong",
       "target": "chang,yanwei",
-      "value": 7
+      "value": 1
     },
     {
       "source": "zhang,zhihui",
       "target": "chang,yanwei",
-      "value": 7
+      "value": 1
     },
     {
       "source": "zhang,yang",
       "target": "chang,yanwei",
-      "value": 3
+      "value": 1
     },
     {
       "source": "​lian,rundong",
       "target": "chang,yanwei",
-      "value": 6
+      "value": 1
     },
     {
       "source": "luo,lei",
       "target": "chang,yanwei",
-      "value": 3
+      "value": 1
     },
     {
       "source": "qiang,weibo",
       "target": "ma,jin",
-      "value": 7
+      "value": 1
     },
     {
       "source": "niu,yameng",
       "target": "ma,qiang",
-      "value": 3
+      "value": 1
     },
     {
       "source": "shi,jie",
       "target": "ma,qiang",
-      "value": 6
+      "value": 1
     },
     {
       "source": "lei,hui",
       "target": "ma,qiang",
-      "value": 7
+      "value": 1
     },
     {
       "source": "chen,zhe",
       "target": "ma,qiang",
-      "value": 5
+      "value": 1
     },
     {
       "source": "zhou,chuwen",
       "target": "li,junying",
-      "value": 5
+      "value": 1
     },
     {
       "source": "meng,ru",
       "target": "li,junying",
-      "value": 3
+      "value": 1
     },
     {
       "source": "hou,ying",
       "target": "li,junying",
-      "value": 5
+      "value": 1
     },
     {
       "source": "zhan,fang",
       "target": "li,junying",
-      "value": 6
+      "value": 1
     },
     {
       "source": "li,yan",
       "target": "li,junying",
-      "value": 2
+      "value": 1
     },
     {
       "source": "ma,nan",
       "target": "li,dong",
-      "value": 2
+      "value": 1
     },
     {
       "source": "guo,yuting",
       "target": "li,dong",
-      "value": 6
+      "value": 1
     },
     {
       "source": "zhai,wei",
@@ -1472,17 +1654,17 @@
     {
       "source": "cao,xiaoqi",
       "target": "qu,chen",
-      "value": 8
+      "value": 1
     },
     {
       "source": "zhao,wenbo",
       "target": "qu,chen",
-      "value": 7
+      "value": 1
     },
     {
       "source": "zhang,yapeng",
       "target": "qu,chen",
-      "value": 9
+      "value": 1
     },
     {
       "source": "xiong,bin",
@@ -1492,177 +1674,177 @@
     {
       "source": "jiang,xiu",
       "target": "zheng,jianing",
-      "value": 3
+      "value": 1
     },
     {
       "source": "yang,nanchen",
       "target": "zheng,jianing",
-      "value": 2
+      "value": 1
     },
     {
       "source": "lou,jia",
       "target": "qiu,juntao",
-      "value": 6
+      "value": 1
     },
     {
       "source": "li,tongxin",
       "target": "qiu,juntao",
-      "value": 6
+      "value": 1
     },
     {
       "source": "yan,yu",
       "target": "qiu,juntao",
-      "value": 7
+      "value": 1
     },
     {
       "source": "jia,wei",
       "target": "qiu,juntao",
-      "value": 8
+      "value": 1
     },
     {
       "source": "ma,ruilu",
       "target": "qiu,juntao",
-      "value": 7
+      "value": 1
     },
     {
       "source": "yan,jiayang",
       "target": "qiu,juntao",
-      "value": 4
+      "value": 1
     },
     {
       "source": "zhang,xiaochun",
       "target": "qiu,juntao",
-      "value": 4
+      "value": 1
     },
     {
       "source": "sun,yaxi",
       "target": "niuyameng",
-      "value": 8
+      "value": 1
     },
     {
       "source": "si,xiaojing",
       "target": "chen,yingying",
-      "value": 9
+      "value": 1
     },
     {
       "source": "wang,wei",
       "target": "chen,yingying",
-      "value": 7
+      "value": 1
     },
     {
       "source": "zhu,ye",
       "target": "chen,yingying",
-      "value": 6
+      "value": 1
     },
     {
       "source": "li,yanzi",
       "target": "chen,yingying",
-      "value": 2
+      "value": 1
     },
     {
       "source": "feng,xiaowu",
       "target": "chen,yingying",
-      "value": 8
+      "value": 1
     },
     {
       "source": "chen,yu",
       "target": "chen,yingying",
-      "value": 2
+      "value": 1
     },
     {
       "source": "sun,jing",
       "target": "chen,yingying",
-      "value": 2
+      "value": 1
     },
     {
       "source": "niu,wanlu",
       "target": "guo,chen",
-      "value": 9
+      "value": 1
     },
     {
       "source": "bai,xue",
       "target": "guo,chen",
-      "value": 4
+      "value": 1
     },
     {
       "source": "zhang,xiangmelon",
       "target": "niu,yameng",
-      "value": 5
+      "value": 1
     },
     {
       "source": "wang,hao",
       "target": "niu,yameng",
-      "value": 4
+      "value": 1
     },
     {
       "source": "wang,jing",
       "target": "niu,yameng",
-      "value": 9
+      "value": 1
     },
     {
       "source": "li,junli",
       "target": "wang,ni",
-      "value": 6
+      "value": 1
     },
     {
       "source": "ouyang,yingjie",
       "target": "wang,ni",
-      "value": 2
+      "value": 1
     },
     {
       "source": "zhou,jingivy",
       "target": "du,juan",
-      "value": 4
+      "value": 1
     },
     {
       "source": "wang,xutong",
       "target": "du,juan",
-      "value": 5
+      "value": 1
     },
     {
       "source": "tong,xin",
       "target": "du,juan",
-      "value": 3
+      "value": 1
     },
     {
       "source": "qu,chen",
       "target": "zhai,wei",
-      "value": 5
+      "value": 1
     },
     {
       "source": "wang,linkatherine",
       "target": "jin,fanmei",
-      "value": 3
+      "value": 1
     },
     {
       "source": "wang,zhiyong",
       "target": "fan,wenbo",
-      "value": 7
+      "value": 1
     },
     {
       "source": "yang,mengmeng",
       "target": "fan,wenbo",
-      "value": 3
+      "value": 1
     },
     {
       "source": "huang,xiaoqing",
       "target": "fan,wenbo",
-      "value": 7
+      "value": 1
     },
     {
       "source": "zhao,mengru",
       "target": "fan,wenbo",
-      "value": 6
+      "value": 1
     },
     {
       "source": "jing,han",
       "target": "fan,wenbo",
-      "value": 6
+      "value": 1
     },
     {
       "source": "jingchen",
       "target": "fan,wenbo",
-      "value": 8
+      "value": 1
     },
     {
       "source": "liu,lu",
@@ -1672,12 +1854,12 @@
     {
       "source": "zhi,pu",
       "target": "yin,dawei",
-      "value": 4
+      "value": 1
     },
     {
       "source": "zhang,qingbo",
       "target": "zhu,chen",
-      "value": 4
+      "value": 1
     },
     {
       "source": "shi,yuanjie",
@@ -1687,27 +1869,27 @@
     {
       "source": "yu,chao",
       "target": "he,haowei",
-      "value": 9
+      "value": 1
     },
     {
       "source": "chen,chen",
       "target": "wang,zhiyong",
-      "value": 5
+      "value": 1
     },
     {
       "source": "xu,haoxi'andev",
       "target": "wang,zhiyong",
-      "value": 5
+      "value": 1
     },
     {
       "source": "chen,yang",
       "target": "wang,zhiyong",
-      "value": 3
+      "value": 1
     },
     {
       "source": "meng,jie",
       "target": "wang,zhiyong",
-      "value": 8
+      "value": 1
     },
     {
       "source": "liu,liang",
@@ -1717,27 +1899,27 @@
     {
       "source": "cui,bin",
       "target": "dou,yutao",
-      "value": 5
+      "value": 1
     },
     {
       "source": "wu,haoeaword",
       "target": "feng,yuehua",
-      "value": 2
+      "value": 1
     },
     {
       "source": "he,bin",
       "target": "feng,yuehua",
-      "value": 5
+      "value": 1
     },
     {
       "source": "wang,nan",
       "target": "feng,yuehua",
-      "value": 6
+      "value": 1
     },
     {
       "source": "hou,xiaocheng",
       "target": "wu,kun",
-      "value": 5
+      "value": 1
     },
     {
       "source": "xue,qian",
@@ -1747,22 +1929,22 @@
     {
       "source": "wang,xinyi",
       "target": "wu,kun",
-      "value": 9
+      "value": 1
     },
     {
       "source": "liu,zhenwei",
       "target": "wu,kun",
-      "value": 6
+      "value": 1
     },
     {
       "source": "zhang,jia",
       "target": "wu,kun",
-      "value": 5
+      "value": 1
     },
     {
       "source": "sun,kaichao",
       "target": "wu,kun",
-      "value": 9
+      "value": 1
     },
     {
       "source": "mao,jingjing",
@@ -1772,42 +1954,42 @@
     {
       "source": "zhang,yuchen",
       "target": "shi,jie",
-      "value": 4
+      "value": 1
     },
     {
       "source": "ji,xiaohui",
       "target": "wang,wei",
-      "value": 9
+      "value": 1
     },
     {
       "source": "zhang,bo",
       "target": "wang,wei",
-      "value": 3
+      "value": 1
     },
     {
       "source": "li,weinan",
       "target": "wang,wei",
-      "value": 7
+      "value": 1
     },
     {
       "source": "yu,nan",
       "target": "wang,wei",
-      "value": 3
+      "value": 1
     },
     {
       "source": "fang,lin",
       "target": "he,liang",
-      "value": 5
+      "value": 1
     },
     {
       "source": "zhang,dongdong",
       "target": "he,liang",
-      "value": 8
+      "value": 1
     },
     {
       "source": "li,yaodong",
       "target": "he,liang",
-      "value": 4
+      "value": 1
     },
     {
       "source": "zhang,shuai",
@@ -1817,27 +1999,27 @@
     {
       "source": "wang,zhenxuan",
       "target": "zhang,qingbo",
-      "value": 5
+      "value": 1
     },
     {
       "source": "wang,weibo",
       "target": "zhang,qingbo",
-      "value": 5
+      "value": 1
     },
     {
       "source": "shen,jian",
       "target": "zhou,yuanzheng",
-      "value": 8
+      "value": 1
     },
     {
       "source": "sun,jin",
       "target": "zhou,yuanzheng",
-      "value": 6
+      "value": 1
     },
     {
       "source": "wang,zhengkun",
       "target": "zhou,yuanzheng",
-      "value": 3
+      "value": 1
     },
     {
       "source": "kanin,lekapojpanich",
@@ -1847,162 +2029,162 @@
     {
       "source": "liu,dan",
       "target": "liu,jie",
-      "value": 4
+      "value": 1
     },
     {
       "source": "zhang,jukai",
       "target": "liu,jie",
-      "value": 6
+      "value": 1
     },
     {
       "source": "sun,ruigang",
       "target": "liu,jie",
-      "value": 2
+      "value": 1
     },
     {
       "source": "li,zongwen",
       "target": "liu,jie",
-      "value": 4
+      "value": 1
     },
     {
       "source": "du,weilong",
       "target": "liu,jie",
-      "value": 6
+      "value": 1
     },
     {
       "source": "zhou,qing",
       "target": "gu,yu",
-      "value": 5
+      "value": 1
     },
     {
       "source": "zhao,zhaozhao",
       "target": "gu,yu",
-      "value": 2
+      "value": 1
     },
     {
       "source": "liu,bo",
       "target": "gu,yu",
-      "value": 2
+      "value": 1
     },
     {
       "source": "gu,yu",
       "target": "lv,jian",
-      "value": 8
+      "value": 1
     },
     {
       "source": "zhang,jian",
       "target": "lv,jian",
-      "value": 9
+      "value": 1
     },
     {
       "source": "xu,zhezi",
       "target": "ma,xu",
-      "value": 2
+      "value": 1
     },
     {
       "source": "li,ang",
       "target": "ma,xu",
-      "value": 5
+      "value": 1
     },
     {
       "source": "gao,fangwei",
       "target": "ma,xu",
-      "value": 9
+      "value": 1
     },
     {
       "source": "yang,hao",
       "target": "ma,xu",
-      "value": 7
+      "value": 1
     },
     {
       "source": "xi,qiang",
       "target": "ma,xu",
-      "value": 8
+      "value": 1
     },
     {
       "source": "zhu,rong",
       "target": "wan,xuefan",
-      "value": 4
+      "value": 1
     },
     {
       "source": "cao，yupeng",
       "target": "he,yaowen",
-      "value": 8
+      "value": 1
     },
     {
       "source": "wang,yufei",
       "target": "he,yaowen",
-      "value": 6
+      "value": 1
     },
     {
       "source": "zhang,yanan",
       "target": "he,yaowen",
-      "value": 7
+      "value": 1
     },
     {
       "source": "shi,kun",
       "target": "he,yaowen",
-      "value": 7
+      "value": 1
     },
     {
       "source": "guo,ying",
       "target": "he,yaowen",
-      "value": 6
+      "value": 1
     },
     {
       "source": "cao,yingyong",
       "target": "he,yaowen",
-      "value": 7
+      "value": 1
     },
     {
       "source": "bai,yuchristine",
       "target": "yao,anfeng",
-      "value": 8
+      "value": 1
     },
     {
       "source": "chen,guang",
       "target": "he,yaowen",
-      "value": 3
+      "value": 1
     },
     {
       "source": "rui,qinghua",
       "target": "niu,yameng",
-      "value": 2
+      "value": 1
     },
     {
       "source": "yang,xu",
       "target": "zhang,jiukun",
-      "value": 7
+      "value": 1
     },
     {
       "source": "an,yi",
       "target": "chang,yanwei",
-      "value": 2
+      "value": 1
     },
     {
       "source": "zhao,guoxu",
       "target": "zhang,qingbo",
-      "value": 7
+      "value": 1
     },
     {
       "source": "ning,jing",
       "target": "zhang,jiukun",
-      "value": 2
+      "value": 1
     },
     {
       "source": "chen,chengtommy",
       "target": "zhang,jiukun",
-      "value": 6
+      "value": 1
     },
     {
       "source": "wang,peng",
       "target": "liu,yao",
-      "value": 9
+      "value": 1
     },
     {
       "source": "bai,peng",
       "target": "ma,jin",
-      "value": 6
+      "value": 1
     }
   ]
 }

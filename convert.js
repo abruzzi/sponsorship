@@ -19,15 +19,29 @@ const sponsees = require('./data/sponsees.json')
 
 const valid = _.filter(sponsees, (sponsee) => sponsee.name && sponsee.sponsorName)
 
+const sponseeCount = _.reduce(_.map(valid, (sponsee) => {
+	return {name: sponsee.sponsorName, count: 1}
+}), (result, item) => {
+	if(result[item.name]) {
+		result[item.name] += 1
+	} else {
+		result[item.name] = 1
+	}
+
+	return result
+}, {});
+
 const graph = {
-	nodes: _.uniq(_.flatten(_.concat(_.map(valid, (spnosee) => {return {id: spnosee.name}}), 
+	nodes: _.uniq(_.flatten(_.concat(_.map(valid, (spnosee) => {return {id: spnosee.name, value: sponseeCount[spnosee.name] || 0}}), 
 	_.map(valid, (sponsor) => {return {id: sponsor.sponsorName}})))),
 	links: _.map(valid, (sponsee) => {
-		return {source: sponsee.name, target: sponsee.sponsorName, value: _.first(_.shuffle(_.range(1, 10)))}
+		return {source: sponsee.name, target: sponsee.sponsorName, value: 1}
 	})
 }
 
 console.log(JSON.stringify(graph, null, 2))
+
+// console.log(JSON.stringify(sponseeCount, null, 2))
 
 // const list = _.filter(sponsees, (sponsee) => {	
 // 	return !_.includes(sponsorNames, sponsee.sponsorName)
