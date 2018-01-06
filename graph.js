@@ -12,13 +12,11 @@ var filter = defs.append('filter').attr('id', 'glow'),
   feMerge.append('feMergeNode').attr('in','SourceGraphic');
 
 
-var colors = ["#FBE426","#FCFB8F","#F3F5E7","#C7E4EA","#ABD6E6","#9AD2E1"].reverse();
-var sponseesNumber = [0,1,2,3,4,5,6,7,8,9,10,11,12];
+var colors = ["#FB1108","#FD150B","#FA7806","#FBE426","#FCFB8F","#F3F5E7","#C7E4EA","#ABD6E6","#9AD2E1","#42A1C1","#1C5FA5", "#172484"];
+var sponseesNumber = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 var colorScale = d3.scaleLinear()
     .domain(sponseesNumber)
     .range(colors);
-
-console.log(colorScale(0))
 
 var redraw = function(graph) {
 // Extract the width and height that was computed by CSS.
@@ -35,8 +33,6 @@ var redraw = function(graph) {
     link.attr("transform", d3.event.transform);
     node.attr("transform", d3.event.transform);
   }
-    
-  var color = d3.scaleOrdinal(d3.schemeCategory20);
 
   var simulation = d3.forceSimulation()
       .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -48,22 +44,43 @@ var redraw = function(graph) {
       .selectAll("line")
       .data(graph.links)
       .enter().append("line")
-        .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+        .style("filter", "url(#glow)")
+        .style("fill", function(d, i){return "url(#gradCenter-" + i + ")";})
+        .attr("stroke-width", function(d) { return 1; });
 
-    var node = svg.append("g")
-        .attr("class", "nodes")
-      .selectAll("circle")
-      .data(graph.nodes)
-      .enter().append("circle")
-        .attr("r", 7)
-        .attr("filter", "url(#glow)")
-        .attr("fill", function(d,i){return "url(#gradCenter-" + i + ")";})
-        .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
 
-    var color = "#C7E4EA";
+
+    var node = svg.selectAll(".node")
+        .data(graph.nodes)
+        .enter().append("g")
+        .attr("class", "node");
+
+    node.append("title")
+        .text((d) => d.id);
+
+    node.append("circle")
+        .style("filter", "url(#glow)")
+        .style("fill", function(d, i){return "url(#gradCenter-" + i + ")";})
+        .attr("r", function(d) {return d.value*3})
+
+    node.append("text")
+        .attr("dy", ".3em")
+        .style("text-anchor", "middle")
+        .text(function(d) { return d.id; })
+    ;
+
+    // var node = svg.append("g")
+    //     .attr("class", "nodes")
+    //   .selectAll("circle")
+    //   .data(graph.nodes)
+    //   .enter().append("circle")
+        // .style("filter", "url(#glow)")
+        // .style("fill", function(d, i){return "url(#gradCenter-" + i + ")";})
+        // .attr("r", function(d) {return d.value})
+    //     .call(d3.drag()
+    //         .on("start", dragstarted)
+    //         .on("drag", dragged)
+    //         .on("end", dragended));
 
     //Create data based gradients for each star - based on center glow
     var gradientCenter = defs.selectAll(".gradientCenter")
@@ -71,6 +88,7 @@ var redraw = function(graph) {
       .append("radialGradient")
       .attr("class", "gradientCenter")
       .attr('id', function(d, i){ return "gradCenter-"+i; })
+
     gradientCenter.append("stop")
       .attr("offset", "0%")
       .attr("stop-color", function(d) { return d3.rgb(colorScale(d.value)).brighter(1.75); });
@@ -84,17 +102,8 @@ var redraw = function(graph) {
       .attr("offset",  "110%")
       .attr("stop-color", function(d) { return d3.rgb(colorScale(d.value)).darker(0.5); });
 
-
-
-    var labels = node.append("text")
-      .text(function(d) {
-        return d.id;
-      })
-      .attr('x', 6)
-      .attr('y', 3);
-
-    node.append("title")
-        .text(function(d) { return d.id; });
+    // node.append("title")
+    //     .text(function(d) { return d.id; });
 
     simulation
         .nodes(graph.nodes)
@@ -110,9 +119,13 @@ var redraw = function(graph) {
           .attr("x2", function(d) { return d.target.x; })
           .attr("y2", function(d) { return d.target.y; });
 
-      node
+      node.select('circle')
           .attr("cx", function(d) { return d.x; })
           .attr("cy", function(d) { return d.y; });
+
+      node.select('text')
+        .attr("x", function(d) { return d.x; })
+        .attr("y", function(d) { return d.y; });
     }
 
   function dragstarted(d) {

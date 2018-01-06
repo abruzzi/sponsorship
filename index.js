@@ -9,9 +9,8 @@ const getJigsawId = (url) => {
 	return url.substring(url.lastIndexOf('/')+1, url.length)
 }
 
-const sponsors = () => {
-
-	const csvFilePath='./raw/sponsors-xa.csv'
+const sponsors = (path) => {
+	// const csvFilePath='./raw/sponsors-xa.csv'
 
 	csv()
 	.fromFile(csvFilePath)
@@ -23,11 +22,11 @@ const sponsors = () => {
 	})	
 }
 
-const sponsees = () => {
-	const csvFilePath='./raw/sponsees-xa.csv'
+const sponsees = (path) => {
+	// const csvFilePath='./raw/sponsees-xa.csv'
 
 	csv()
-	.fromFile(csvFilePath)
+	.fromFile(path)
 	.on('end_parsed',(array) => {
 		const info = _.map(array, (item) => {
 			return {
@@ -46,4 +45,4 @@ const sponsees = () => {
 	})	
 }
 
-sponsees()
+sponsees('./raw/sponsees-cd.csv')
